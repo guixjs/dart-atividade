@@ -1,13 +1,9 @@
-import 'dart:io';
+
 
 void main() {
-  print("Digite um número:");
-  var num1 = int.parse(stdin.readLineSync()!);
-  print("Digite outro número:");
-  var num2 = int.parse(stdin.readLineSync()!);
-
-  print("Digite uma operação (+, -, *, /):");
-  var operacao = stdin.readLineSync();
+  int num1 = 10;
+  int num2 = 5;
+  String operacao = "+";
   switch (operacao) {
     case '+':
       print("Resultado: ${num1 + num2}");

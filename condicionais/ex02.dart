@@ -1,8 +1,5 @@
-import 'dart:io';
-
 void main() {
-  print("Digite um número:");
-  var numero = int.parse(stdin.readLineSync()!);
+  int numero = 39;
 
   if (numero % 2 == 0) {
     print("O número $numero é par.");

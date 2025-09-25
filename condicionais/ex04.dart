@@ -1,8 +1,7 @@
-import 'dart:io';
+
 
 void main() {
-  print("Digite o salário do funcionário:");
-  var salario = double.parse(stdin.readLineSync()!);
+  double salario = 2300;
 
   if (salario > 1000 && salario <= 2000) {
     salario -= salario * 0.10;

@@ -1,8 +1,6 @@
-import 'dart:io';
 
 void main() {
-  print("Digite um número:");
-  var numero = int.parse(stdin.readLineSync()!);
+  int numero = 2;
 
   if (numero > 0) {
     print("O número é positivo.");
