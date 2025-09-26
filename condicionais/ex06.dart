@@ -1,10 +1,7 @@
-import 'dart:io';
-
 void main() {
-  print("Digite uma letra:");
-  String? letra = stdin.readLineSync();
+  String letra = "a";
 
-  letra = letra?.toLowerCase();
+  letra = letra.toLowerCase();
 
   if (letra == 'a' ||
       letra == 'e' ||

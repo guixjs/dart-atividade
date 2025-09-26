@@ -1,8 +1,5 @@
-import 'dart:io';
-
 void main() {
-  print("Digite um número de 1 a 7:");
-  var numero = int.parse(stdin.readLineSync()!);
+  int numero = 3;
 
   switch (numero) {
     case 1:

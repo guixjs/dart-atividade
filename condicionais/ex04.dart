@@ -1,5 +1,3 @@
-
-
 void main() {
   double salario = 2300;
 

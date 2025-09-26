@@ -1,12 +1,7 @@
-import 'dart:io';
-
 void main() {
-  print("Digite o tamanho do lado A:");
-  var ladoA = int.parse(stdin.readLineSync()!);
-  print("Digite o tamanho do lado B:");
-  var ladoB = int.parse(stdin.readLineSync()!);
-  print("Digite o tamanho do lado C:");
-  var ladoC = int.parse(stdin.readLineSync()!);
+  int ladoA = 3;
+  int ladoB = 4;
+  int ladoC = 5;
 
   if (ladoA < ladoB + ladoC && ladoB < ladoA + ladoC && ladoC < ladoA + ladoB) {
     if (ladoA == ladoB && ladoB == ladoC) {
